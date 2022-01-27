@@ -29,5 +29,9 @@
   "devDependencies": {
     "@parcel/resolver-glob": "^2.2.1",
     "parcel": "^2.2.1"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*"
   }
 }
