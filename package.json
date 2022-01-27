@@ -1,0 +1,29 @@
+{
+  "name": "r4-netlifycms",
+  "version": "0.0.1",
+  "description": "A [netlify-cms](https://www.netlifycms.org) instance to edit data that can be used by a static version of radio4000.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/internet4000/r4-netlifycms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/internet4000/r4-netlifycms/issues"
+  },
+  "homepage": "https://gitlab.com/internet4000/r4-netlifycms#readme",
+  "dependencies": {
+    "@vaadin/router": "^1.7.4",
+    "netlify-cms-app": "^2.15.65",
+    "radio4000-player": "^0.6.16"
+  },
+  "devDependencies": {
+    "parcel": "^2.2.1"
+  }
+}
