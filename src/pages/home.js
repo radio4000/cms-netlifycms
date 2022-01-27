@@ -4,6 +4,6 @@ export default class PageHome extends HTMLElement {
 	}
 	render = () => {
 		const $player = document.createElement('radio4000-player')
-		$app.append($player)
+		this.append($player)
 	}
 }
