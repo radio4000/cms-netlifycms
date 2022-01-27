@@ -11,7 +11,7 @@ const settings = {
 		{
 			label: 'Channel',
 			name: 'channel',
-			file: 'settings/channel.md',
+			file: 'content/channel.json',
 			slug: '{{title}}',
 			editor: {
 				preview: false

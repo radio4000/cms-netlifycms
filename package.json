@@ -4,8 +4,11 @@
   "description": "A [netlify-cms](https://www.netlifycms.org) instance to edit data that can be used by a static version of radio4000.",
   "main": "src/index.js",
   "type": "module",
+  "engines": {
+    "node": ">=14"
+  },
   "scripts": {
-    "start": "parcel index.html",
+    "start": "parcel ./index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -13,7 +16,7 @@
     "url": "git+ssh://git@gitlab.com/internet4000/r4-netlifycms.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "GPL-3.0",
   "bugs": {
     "url": "https://gitlab.com/internet4000/r4-netlifycms/issues"
   },
@@ -24,6 +27,7 @@
     "radio4000-player": "^0.6.16"
   },
   "devDependencies": {
+    "@parcel/resolver-glob": "^2.2.1",
     "parcel": "^2.2.1"
   }
 }

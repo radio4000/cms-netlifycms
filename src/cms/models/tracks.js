@@ -10,7 +10,7 @@ const tracks	 = {
 	name: 'tracks',
 	label: 'Tracks',
 	label_singular: 'Track',
-	folder: 'tracks',
+	folder: 'content/tracks',
 	media_folder: '',
 	path: '{{slug}}/index',
 	create: true,
